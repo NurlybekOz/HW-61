@@ -1,0 +1,40 @@
+.countriesBar {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    border: 1px solid;
+    width: 320px;
+    max-height: 620px;
+    overflow-y: scroll;
+}
+.country {
+    height: 50px;
+    padding-left: 10px;
+    width: 300px;
+    background: white;
+    border: 0;
+    text-align: left;
+    text-decoration: underline;
+}
+.App{
+    display: flex;
+    gap: 25px;
+    margin-top: 15px;
+}
+.country-info{
+    width: 50%;
+    position: relative;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 620px;
+    gap: 70px;
+}
+.country-img{
+    position: absolute;
+    right: 20px;
+    top: 30px;
+    width: 200px;
+    height: 120px;
+}
